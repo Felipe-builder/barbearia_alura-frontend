@@ -1,0 +1,12 @@
+header {
+    background: #8e8080;
+}
+
+.imagem {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+}
