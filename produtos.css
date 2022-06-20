@@ -1,12 +1,20 @@
 header {
-    background: #8e8080;
+    background: #BBBBBB;
 }
 
 .imagem {
-    display: inline-block;
+    display: inline;
 }
 
-.menu {
-    display: inline-block;
-    list-style-type: none;
+nav li {
+    display: inline;
+    margin: 0 0 0 0.9375rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.375rem;
+    text-decoration: none;
 }
