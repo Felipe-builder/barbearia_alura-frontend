@@ -1,9 +1,20 @@
 header {
     background: #BBBBBB;
+    padding: 1.25rem 0;
 }
 
-.imagem {
-    display: inline;
+.box-main {
+    position: relative;
+    width: 58.75rem;
+    margin: 0 auto;
+}
+
+
+nav {
+    position: absolute;
+    top: 6.875rem;
+    right: 0;
+
 }
 
 nav li {
