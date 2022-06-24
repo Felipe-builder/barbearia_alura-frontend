@@ -41,10 +41,11 @@ nav a {
     width: 30%;
     vertical-align: top;
     padding: 40px 0;
-    border: 3px solid black;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .produtos h2 {
