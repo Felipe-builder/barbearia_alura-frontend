@@ -30,9 +30,14 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos {
-    width: 940px;
-    margin: 50px auto;
+    width: 58.75rem;
+    margin: 3.125rem auto;
 }
 
 .produtos li {
@@ -40,25 +45,37 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    padding: 40px 0;
+    padding: 2.5rem 0;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     box-sizing: border-box;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 0.625rem;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 2.125rem;
+}
+
+.produtos li:active {
+    border-color: #BBBBBB;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
 .produto-preco {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .produto-descricao {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
